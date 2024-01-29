@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <!-- You can link to an external CSS file for styling -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        form {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h2>Login</h2>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br>
+
+        <button type="button" onclick="login()">Login</button>
+    </form>
+
+    <!-- You can link to an external JavaScript file for client-side validation -->
+    <script>
+        function login() {
+            // Add client-side validation or send login request to the server
+            alert("Login button clicked!");
+        }
+    </script>
+</body>
+</html>
